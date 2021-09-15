@@ -11,6 +11,10 @@ namespace Desadio1DSE.Models
         [Key]
         public int id { get; set; }
 
+        [StringLength(20)]
+        [Required(ErrorMessage ="Ingrese el tipo de moneda a utilizar")]
+        public string Moneda { get; set; }
+
         public int? Tipo { get; set; }
 
         public virtual TipoCuentaBancaria TipoCuentaBancaria_Inv { get; set; }

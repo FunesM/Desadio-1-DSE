@@ -25,6 +25,7 @@ namespace Desadio1DSE.Models
         public virtual DbSet<CuentaBancaria> CuentaBancaria { get; set; }
         public virtual DbSet<Transacciones> Transacciones { get; set; }
         public virtual DbSet<TipoCuentaBancaria> TipoCuentaBancaria { get; set; }
+        public virtual DbSet<TipoTransaccion> TipoTransaccion { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

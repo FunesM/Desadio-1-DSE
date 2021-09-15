@@ -152,11 +152,16 @@
     <Compile Include="Migrations\202109150540249_QuintaMigracion.Designer.cs">
       <DependentUpon>202109150540249_QuintaMigracion.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202109151758579_SextaMigracion.cs" />
+    <Compile Include="Migrations\202109151758579_SextaMigracion.Designer.cs">
+      <DependentUpon>202109151758579_SextaMigracion.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Banco.cs" />
     <Compile Include="Models\Cliente.cs" />
     <Compile Include="Models\CuentaBancaria.cs" />
     <Compile Include="Models\TipoCuentaBancaria.cs" />
+    <Compile Include="Models\TipoTransaccion.cs" />
     <Compile Include="Models\Transacciones.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -228,6 +233,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202109150540249_QuintaMigracion.resx">
       <DependentUpon>202109150540249_QuintaMigracion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202109151758579_SextaMigracion.resx">
+      <DependentUpon>202109151758579_SextaMigracion.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
