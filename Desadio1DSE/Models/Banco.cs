@@ -22,6 +22,9 @@ namespace Desadio1DSE.Models
         // sobre cómo configurar y usar un modelo Code First, vea http://go.microsoft.com/fwlink/?LinkId=390109.
 
         public virtual DbSet<Cliente> Cliente { get; set; }
+        public virtual DbSet<CuentaBancaria> CuentaBancaria { get; set; }
+        public virtual DbSet<Transacciones> Transacciones { get; set; }
+        public virtual DbSet<TipoCuentaBancaria> TipoCuentaBancaria { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

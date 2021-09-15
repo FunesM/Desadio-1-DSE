@@ -11,8 +11,9 @@ namespace Desadio1DSE.Models
         [Key]
         public int id { get; set; }
 
-        //Moneda
-        //Tipo
+        public int? Tipo { get; set; }
+
+        public virtual TipoCuentaBancaria TipoCuentaBancaria_Inv { get; set; }
 
         public int? Cliente_id { get; set; }
 

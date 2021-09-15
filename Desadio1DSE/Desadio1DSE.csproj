@@ -136,10 +136,28 @@
     <Compile Include="Migrations\202109150407097_PrimeraMigracion.Designer.cs">
       <DependentUpon>202109150407097_PrimeraMigracion.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202109150453461_SegundaMigracion.cs" />
+    <Compile Include="Migrations\202109150453461_SegundaMigracion.Designer.cs">
+      <DependentUpon>202109150453461_SegundaMigracion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202109150519420_TerceraMigracion.cs" />
+    <Compile Include="Migrations\202109150519420_TerceraMigracion.Designer.cs">
+      <DependentUpon>202109150519420_TerceraMigracion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202109150537120_CuartaMigracion.cs" />
+    <Compile Include="Migrations\202109150537120_CuartaMigracion.Designer.cs">
+      <DependentUpon>202109150537120_CuartaMigracion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202109150540249_QuintaMigracion.cs" />
+    <Compile Include="Migrations\202109150540249_QuintaMigracion.Designer.cs">
+      <DependentUpon>202109150540249_QuintaMigracion.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Banco.cs" />
     <Compile Include="Models\Cliente.cs" />
     <Compile Include="Models\CuentaBancaria.cs" />
+    <Compile Include="Models\TipoCuentaBancaria.cs" />
+    <Compile Include="Models\Transacciones.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -198,6 +216,18 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202109150407097_PrimeraMigracion.resx">
       <DependentUpon>202109150407097_PrimeraMigracion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202109150453461_SegundaMigracion.resx">
+      <DependentUpon>202109150453461_SegundaMigracion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202109150519420_TerceraMigracion.resx">
+      <DependentUpon>202109150519420_TerceraMigracion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202109150537120_CuartaMigracion.resx">
+      <DependentUpon>202109150537120_CuartaMigracion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202109150540249_QuintaMigracion.resx">
+      <DependentUpon>202109150540249_QuintaMigracion.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
